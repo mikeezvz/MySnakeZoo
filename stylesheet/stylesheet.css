@@ -45,32 +45,38 @@ margin-top: 25px;
         max-width: 300px;
         max-height: 200px;
       }
-      
-      .nav-container {
-        margin-left: 20px;
+
+      nav {
+        width: 200px;
+        background-color: #d2b48c;
+        height: 100vh;
         position: fixed;
         top: 0;
         right: 0;
-        width: 200px;
-        height: 100%;
-        background-color: #40635d;
+        padding: 20px;
       }
 
-      .nav-content{
-        margin-top: 30px;
-        margin-left: 35px;
-      }
+      li a {
+        color: black;
+      }    
 
       footer{
-        background: bisque;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: #d2b48c;
         text-align: right;
         margin-right: 200px;
         padding: 20px;
-        margin-top: 35px;
-        height: 100px;
+        height: 50px;
       }
-
+    
+      footer a{
+        color: black;
+      }
+    
       .footer-links{
-        margin-top: 20px;
+        margin-top: 0px;
       }
     
